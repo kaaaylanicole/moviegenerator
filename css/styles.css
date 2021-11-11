@@ -1,0 +1,104 @@
+body {
+    background: black;
+}
+
+.reelz-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-button {
+    background-color: blanchedalmond;
+    font-size: 1.5em;
+    border-radius: 8px;
+    margin: .5em 1em 0 0;
+    width: 6em;
+}
+
+.signup-button:hover {
+    background-color: #EA302C;
+    color: blanchedalmond;
+}
+
+.movie-form {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    margin: 5em;
+    justify-content: center;
+}
+
+.dropdown {
+    font-size: 1.5em;
+}
+
+.submit-button {
+    background-color: blanchedalmond;
+    font-size: 1.5em;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin: .5em;
+    width: 8em;
+}
+
+.submit-button:hover {
+    background-color: #EA302C;
+    color: blanchedalmond;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.popcorn-image {
+    margin: 5em;
+}
+
+.form-and-popcorn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form-headlines {
+    color: blanchedalmond;
+    font-size: 1.5em;
+    margin: .5em .5em .5em 0;
+}
+
+#movie_list {
+    color: blanchedalmond;
+}
+
+@media only screen and (max-width: 541px) {
+    .form-and-popcorn {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .popcorn-image {
+        max-width: auto 0;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
