@@ -6,15 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Merriweather&display=swap">
     <script src="js/scripts.js" defer></script>
     <title>Movie Generator</title>
 </head>
 
 <body>
     <div class="nav-bar">
-        <img src="images/reelz_logo.png" class="reelz-logo">
-        <button class="signup-button">Sign Up</button>
-    </div>
+        <div>
+            <img src="images/reelz_logo.png" class="nav-bar" id="reelz-logo">
+        </div>
+
+        <div>
+            <button type="button" class="signup-button" onclick="showForm()">Sign Up</button>    
+                <div class="signup-form hide" id="signup-form">
+                    <div class="signup-form--wrap">
+                        <div>   
+                            <div class="close-form" onclick="hideForm()">
+                                X
+                        </div>
+                            <form>
+                                <label class="form-content" for="email">Create An Account</label>
+                                <br>
+                                <div class="form-field">
+                                    <input type="text" id="email" name="email" placeholder="Your email address...">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                    </div>
+                </div>    
+        </div>
+    </div> 
 
     <main>
         <div class="main-page">
@@ -59,7 +82,7 @@
                     </div>
                 </div>
             
-                <img src="images/popcorn.png" alt="popcorn in a box" class="popcorn-image">
+                <!-- <img src="images/popcorn.png" alt="popcorn in a box" class="popcorn-image"> -->
 
             </div>
 
