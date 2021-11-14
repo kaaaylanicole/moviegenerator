@@ -2,7 +2,8 @@
     {
         "title": "The Shawshank Redemption",
         "genre": "Drama",
-        "year": "1994"
+        "year": "1994",
+        "img": "src=images/shawshank.jpg"
     },
     {
         "title": "The Godfather",
