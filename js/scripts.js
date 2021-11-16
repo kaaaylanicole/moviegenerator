@@ -5,8 +5,7 @@ fetch("movie_list.json")
             var movie_list = document.getElementById('movie_list')
             for (var i = 0; i < data.length; i++) {
                 console.log(data[i])
-                movie_list.innerHTML = movie_list.innerHTML + '<p>' + data[i].title + '</p>'
-                movie_list.innerHTML = movie_list.innerHTML + '<img src = "../images/.jpg"'
+                movie_list.innerHTML = movie_list.innerHTML + '<div class="movie-wrapper"> <p>' + data[i].title + '</p> <img src ="../images/' + data[i].img + '"></div>'            
             }
         })
 
@@ -30,3 +29,10 @@ function saveDynamicDataToFile() {
     var blob = new Blob([userInput], { type: "text/plain;charset=utf-8" });
     saveAs(blob, "dynamic.txt");
 }
+
+// Create and use a function that accepts two or more values, calculates or determines a new value based on those inputs, and returns a new value
+// if (genre.includes('Action'))  {
+//     return data[i].movie
+// } else {
+//     return "No Movie Available"
+// }
