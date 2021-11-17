@@ -1,5 +1,95 @@
 [
     {
+        "title": "Ladybird",
+        "genre": "Comedy",
+        "year": "2017",
+        "img": "ladybird.jpg"
+    },
+    {
+        "title": "Almost Famous",
+        "genre": "Comedy",
+        "year": "2000",
+        "img": "almostfamous.jpg"
+    },
+    {
+        "title": "The Breakfast Club",
+        "genre": "Comedy",
+        "year": "1985",
+        "img": "breakfastclub.jpg"
+    },
+    {
+        "title": "Jojo Rabbit",
+        "genre": "Comedy",
+        "year": "2019",
+        "img": "jojorabbit.jpg"
+    },
+    {
+        "title": "Call Me By Your Name",
+        "genre": "Romance",
+        "year": "2017",
+        "img": "callmebyyourname.jpg"
+    },
+    {
+        "title": "Captain Fantastic",
+        "genre": "Comedy",
+        "year": "2016",
+        "img": "captainfantastic.jpg"
+    },
+    {
+        "title": "Perks of Being a Wallflower",
+        "genre": "Drama",
+        "year": "2012",
+        "img": "wallflower.jpg"
+    },
+    {
+        "title": "About Time",
+        "genre": "Fantasy",
+        "year": "2013",
+        "img": "abouttime.jpg"
+    },
+    {
+        "title": "The Conjuring",
+        "genre": "Horror",
+        "year": "2013",
+        "img": "conjuring.jpg"
+    },
+    {
+        "title": "Crazy Stupid Love",
+        "genre": "Comedy",
+        "year": "2011",
+        "img": "crazystupidlove.jpg"
+    },
+    {
+        "title": "Gone Girl",
+        "genre": "Thriller",
+        "year": "2014",
+        "img": "gonegirl.jpg"
+    },
+    {
+        "title": "Joker",
+        "genre": "Drama",
+        "year": "2019",
+        "img": "joker.jpg"
+    },
+    {
+        "title": "1917",
+        "genre": "War",
+        "year": "2019",
+        "img": "1917.jpg"
+    },
+    {
+        "title": "Dead Poets Society",
+        "genre": "Drama",
+        "year": "1989",
+        "img": "deadpoetssociety.jpg"
+    },
+    {
+        "title": "Legends of the Fall",
+        "genre": "Romance",
+        "year": "1994",
+        "img": "legendsofthefall.jpg"
+    },
+    {
         "title": "The Shawshank Redemption",
         "genre": "Drama",
         "year": "1994",
@@ -91,7 +181,7 @@
     },
     {
         "title": "Forrest Gump",
-        "genre":"Drama",
+        "genre": "Drama",
         "year": "1994",
         "img": "forrestgump.jpg"
     },
@@ -175,7 +265,7 @@
     },
     {
         "title": "Saving Private Ryan",
-        "genre": "Drama",
+        "genre": "War",
         "year": "1998",
         "img": "savingprivateryan.jpg"
     },

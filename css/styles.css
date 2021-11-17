@@ -1,8 +1,5 @@
 body {
     background:#39202C;
-}
-
-body {
     background-image: url(../images/cinema.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -50,28 +47,28 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .form-content {
+.form-content {
     font-size: 30px;
     font-family: merriweather;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .form-field {
+.form-field {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 1em;
-  }
+}
 
-  #email {
+#email {
     margin-bottom: .5em;
     font-family: merriweather;
-  }
+}
 
-  #submit-form {
+#submit-form {
     background-color: #FCC252;
     font-family: merriweather;
     font-size: 1em;
@@ -80,9 +77,9 @@ body {
     margin: 1em 3em 0 3em;
     height: 2em;
     width: 8em;
-  }
+}
   
-  .signup-form--wrap {
+.signup-form--wrap {
     background:#FDFCFA;
     display: flex;
     flex-direction: column-reverse;
@@ -90,18 +87,18 @@ body {
     border-radius: 8px;
     padding: 1em;
     margin: 1em;
-  }
+}
   
-  .close-form {
+.close-form {
     display: flex;
     justify-content: flex-end;
     padding: 2px;
     font-size: 20px;
-  }
+}
 
-  .hide {
+.hide {
     display: none!important;
-  }
+}
 
 .form-and-popcorn {
     display: flex;
@@ -181,6 +178,7 @@ footer {
     justify-content: space-around;
 }
 
+
 @media only screen and (max-width: 541px) {
     body {
         background-image: none;
@@ -216,10 +214,6 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
         margin-top: 8em;
-    }
-
-    .popcorn-image {
-        max-width: auto 0;
     }
 
     .form-buttons {
